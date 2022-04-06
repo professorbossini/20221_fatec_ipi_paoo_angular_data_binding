@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'angular-data-binding';
+  nome = "José"
+  idade = 20
+
+  lancarDado(){
+    return Math.floor(Math.random() * 6) + 1
+  }
 }
